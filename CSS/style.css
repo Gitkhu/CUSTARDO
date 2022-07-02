@@ -1,0 +1,347 @@
+/* body */
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  transition: all 0.1s ease 0s;
+}
+
+h3, h4, h5, h6, p {
+  line-height: 1.75rem;
+  font-size: 1.2rem;
+}
+
+.h-text {
+  padding: 1.8rem;
+  color: #14C38E;
+}
+
+.web-img {
+  width: 10rem;
+  margin: 10px;
+  border: 4px solid #14C38E;
+  border-radius: 10px;
+}
+
+.region {
+  margin: 0.5rem 0.5rem 0.5rem 5px;
+  width: 1.9rem;
+}
+
+/* nav-bar (phone-nav)*/
+#phone-nav {
+  background-color: black;
+}
+
+#phone-nav a:hover {
+  color: #ffff;
+}
+
+#phone-nav a, li, button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #14C38E;
+}
+
+/* nav-bar (main-nav-bar)*/
+#header a, li, button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #14C38E;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: black;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav-a {
+  transition: all 0.3s ease 0s;
+}
+
+#header a:hover {
+  color: #ffff;
+}
+
+#header button {
+  padding: 9px 25px;
+  background-color: #14C38E;
+  color: #ffff;
+  border: none;
+  border-radius: 3.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#header button:hover {
+  background-color: #ffff;
+  color: black;
+}
+
+.logo-text {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #14C38E;
+}
+
+/* welcome */
+.custard {
+  width: 25rem;
+}
+
+.w-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: grey;
+  margin: 1.6rem 0 3.2rem 0;
+}
+
+.w2-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: grey;
+  margin: 1.6rem 0 0 0;
+}
+
+/* advantages section */
+/* member section */
+#member a {
+  text-decoration: none;
+}
+
+.form {
+  border: 2px solid #14C38E;
+  background-color:#c6faea;
+  border-radius: 10px;
+  width: 26rem;
+  height: 23.75rem;
+  margin: 0 auto 1.8rem auto;
+}
+
+.input {
+  border: 0;
+  outline: none;
+  font-size: 12px;
+  width: 85%;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.form-button {
+  background-color: #14C38E;
+  color: #ffff;
+  width: 45%;
+  list-style: none;
+  border-radius: 2rem;
+  padding: 10px;
+  margin: 25px auto 0 auto;
+  transition: all 0.3s ease 0s;
+}
+
+.form-button:hover {
+  background-color: #ffff;
+  color: #14C38E;
+  transition: all 0.3s ease 0s;
+}
+
+/* footer section */
+#footer {
+  padding: 1.2rem;
+  background-color: black;
+  border-radius: 1rem;
+  width: 98%;
+  margin: 2rem auto 0 auto;
+}
+
+.hr {
+  color: #ffff;
+}
+
+.f-text {
+  font-size: 0.7rem;
+  color: #ffff;
+}
+
+.partner {
+  width: 4rem;
+  margin: 2rem;
+}
+
+.developer {
+  width: 6rem;
+  border: 4px solid #14C38E;
+  border-radius: 5rem;
+  margin: 1rem;
+}
+
+.social-M {
+  font-size: 2rem;
+  margin: 2rem 1.8rem 1.8rem 1.8rem;
+  color: #ffff;
+  transition: all 0.3s ease 0s;
+}
+
+.social-M:hover {
+  color: #14C38E;
+  transition: all 0.3s ease 0s;
+}
+
+.partners {
+  margin-top: 4rem;
+}
+
+.dvp-info {
+  width: 11em;
+  margin-bottom: 10px;
+}
+
+/* media queries */
+@media(max-width:726px) {
+  .partners {
+    display: none;
+  }
+}
+
+@media (min-width:992px) {
+  #phone-nav {
+    display: none;
+  }
+
+  /* index9 */
+  .contact-img {
+    width: 80%;
+    transition: all 0.3s ease 0s;
+  }
+  .contact-input{
+    width: 90%;
+    height: 70%;
+  }
+}
+
+@media(max-width:992px) {
+  .w-text {
+    font-size: 1.3rem;
+  }
+
+  .w2-text {
+    font-size: 1.3rem;
+  }
+
+  .h-text {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  /* navbar section */
+  .header-nav {
+    display: none;
+  }
+
+  .nav-li {
+    padding: 15px;
+  }
+
+  /* index9*/
+  .contact-img {
+    width: 95%;
+    transition: all 0.3s ease 0s;
+  }
+
+  .contact-input{
+    width: 90%;
+    height: 90%;
+  }
+}
+
+/* //index3 (SOCIAL MEDIA PAGE)  */
+.i3-text-1 {
+  margin-top: 18%;
+  font-size: 6rem;
+  color: grey;
+}
+
+/* button section */
+.btn-text {
+  margin: 0 auto 0 auto;
+  font-size: 0.7rem;
+}
+
+.back-btn {
+  margin-top: 2rem;
+  font-size: 4rem;
+  color: #14C38E;
+  transition: all 0.3s ease 0s;
+}
+
+.back-btn:hover {
+  color: #14cd95;
+  transition: all 0.3s ease 0s;
+}
+
+/* index5  (SERVICES) */
+.note {
+  margin: 2rem 2rem 0 2rem;
+  padding: 1.5rem;
+  background-color: #F0F0F0;
+  border-radius: 1rem;
+}
+
+.countries {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.countries-img {
+  width: 75%;
+}
+
+/* index6  (about us)  */
+#about-us {
+  padding: 1rem;
+}
+
+.about-info {
+  background-color: #ffff;
+  padding: 1.2rem;
+  opacity: .7;
+  border-radius: 10px;
+}
+
+/* * index9  (contact)  */
+#contact h2,h3,h4{
+  color: black;
+}
+
+.contact-details {
+  padding: 1rem;
+}
+
+.contact-input {
+  border: 2px solid #14cd95;
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: #adefdb ;
+}
+
+.contact-btn:hover {
+  background-color: #ffff;
+  color:black;
+  transition: all 0.3s ease 0s;
+}

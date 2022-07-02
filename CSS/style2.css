@@ -1,0 +1,297 @@
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  transition: all 0.1s ease 0s;
+}
+
+h3, h4, h5, h6, p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.75rem;
+  font-size: 1.3rem;
+}
+
+.hr {
+  color: #ffff;
+}
+
+.h-text {
+  padding: 1.8rem;
+  color: #14C38E;
+}
+
+.md-text {
+  margin-left: 10px;
+  font-size: 1.3rem;
+}
+
+.region {
+  margin: 0.5rem 0.5rem 0.5rem 5px;
+  width: 1.9rem;
+}
+
+/* navbar section (phone-nav)*/
+#phone-nav {
+  background-color: black;
+}
+
+#phone-nav a:hover {
+  color: #ffff;
+}
+
+#phone-nav a, li, button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #14C38E;
+}
+
+/* navbar section (main nav-bar) */
+#header a, li, button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #14C38E;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: black;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav-a {
+  transition: all 0.3s ease 0s;
+}
+
+#header a:hover {
+  color: #ffff;
+}
+
+#header button {
+  padding: 9px 25px;
+  background-color: #14C38E;
+  color: #ffff;
+  border: none;
+  border-radius: 3.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#header button:hover {
+  background-color: #ffff;
+  color: black;
+}
+
+.logo-text {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #14C38E;
+}
+
+/* information secion */
+.cu-info {
+  line-height: 1.8;
+  padding: 1.8rem;
+}
+
+/* planting section */
+#planting .col {
+  padding: 1.5rem;
+  width: 90%;
+  margin: 0px auto 1.8rem auto;
+}
+
+#planting p, li {
+  color: black;
+}
+
+.p-info {
+  margin: 30px;
+  background-color: #b8f1df;
+  border-radius: 20px;
+}
+
+.ndx2-web-img {
+  border: 5px solid #14cd95;
+  border-radius: 10px;
+  transition: all 0.5s ease 0s;
+}
+
+.ndx2-web-img:hover {
+  border: 5px solid #ffff;
+  transition: all 0.5s ease 0s;
+}
+
+.part-no {
+  border: 1px solid #14cd95;
+  border-radius: 30px;
+  background-color: #14cd95;
+  margin: 1.2rem auto 1.2rem auto;
+}
+
+.step-header {
+  font-size: 1.3rem;
+  color: #14C38E;
+}
+
+.process {
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem;
+  font-size: 1.85rem;
+}
+
+.numbers {
+  width: 2.5rem;
+  margin-bottom: .5rem;
+}
+
+/* video section */
+#video {
+  width: 98%;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: #b8f1df;
+  margin: 0 auto 1.7rem auto;
+  ;
+}
+
+.v-d1 {
+  border: 7px solid #14C38E;
+  border-radius: 2.5rem;
+  width: 43rem;
+  margin: 5px;
+}
+
+.v-d-text {
+  margin: .3rem auto 0.3rem auto;
+  color: #14C38E;
+}
+
+/* button section */
+.back-btn {
+  color: #14C38E;
+  margin-left: 82%;
+  font-size: 4em;
+  transition: all 0.3s ease 0s;
+}
+
+.back-btn:hover {
+  color: #14cd95;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-text {
+  margin-left: 82%;
+  font-size: 0.7rem;
+}
+
+/* footer section */
+#footer {
+  padding: 1.2rem;
+  background-color: black;
+  border-radius: 1rem;
+  width: 98%;
+  margin: 0 auto 0 auto;
+}
+
+.f-text {
+  font-size: 0.7rem;
+  color: #ffff;
+}
+
+.partner {
+  width: 4rem;
+  margin: 2rem;
+}
+
+.developer {
+  width: 6rem;
+  border: 4px solid #14C38E;
+  border-radius: 5rem;
+  margin: 1rem;
+}
+
+.social-M {
+  font-size: 2rem;
+  margin: 2rem 1.8rem 1.8rem 1.8rem;
+  color: #ffff;
+  transition: all 0.3s ease 0s;
+}
+
+.social-M:hover {
+  color: #14C38E;
+  transition: all 0.3s ease 0s;
+}
+
+.partners {
+  margin-top: 4rem;
+}
+
+.dvp-info {
+  width: 11rem;
+  margin-bottom: 10px;
+}
+
+/* media queries */
+@media (min-width:992px) {
+  #phone-nav {
+    display: none;
+  }
+}
+
+@media (max-width:992px) {
+  .h-text {
+    padding: 1rem;
+  }
+
+  /* navbar section */
+  .header-nav {
+    display: none;
+  }
+
+  .nav-li {
+    padding: 15px;
+  }
+}
+
+@media(max-width:726px) {
+  .partners {
+    display: none;
+  }
+}
+
+@media (max-width:880px) {
+  .ndx2-web-img {
+    width: 21.5rem;
+  }
+
+  /* planting section */
+  #planting .col {
+    padding: 1.1rem;
+  }
+
+  /* video section */
+  .v-d1 {
+    width: 22rem;
+  }
+
+  .v-d2 {
+    width: 22rem;
+  }
+}
